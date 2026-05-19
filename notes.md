@@ -1,4 +1,22 @@
 # Notes
+
+## Claude code
+### Sandboxing
+1.  permission deny 또는 prompt/policy/hook 기반 제한
+- 실수 방지, ux guardrail 정도의 기능
+- 제한되지 않은 bash로 우회 가능
+
+2. sandbox (같은 workspace 내부로 제한하거나 denyRead 설정)
+- 폴더별 접근 금지 강하게 설정 가능
+- 네트워크나 OS 레벨에서의 격리도 가능
+- 여기부터는 꽤 의미있는 보안 경계로 보임
+
+3. 물리적/논리적 분리 (리포 분리)
+
+부서에서 원하는 레벨은 2에서 해결 가능할 것으로 보임. 
+1, 2를 같이 설정하는게 더 좋고,
+걱정되는 git history read는 git command 제한, git metatdata read 제약 걸면 될 것 같음.
+
 ## 2026-05-19
 claude cli api 에러는 해결되지 않았지만... 사이드 프로젝트 하면서 머리를 식혀본다.
 naver blog를 쓰다가 자유도가 너무 낮아서 github을 써보기로 마음 먹었다.

@@ -1,3 +1,25 @@
+# Notes
+## 2026-05-19
+claude cli api 에러는 해결되지 않았지만... 사이드 프로젝트 하면서 머리를 식혀본다.
+naver blog를 쓰다가 자유도가 너무 낮아서 github을 써보기로 마음 먹었다.
+거의 회사에서 업무기록 의식의 흐름대로 적는 거겠지만!
+
+일단 claude cli 현상태는,
+windows os -> wsl -> docker -> container
+여기서 도커에 설치를 하고 컨테이너에서 실행을 시키고 있다.
+
+해결하는 여러가지 방법이 있었는데
+1. export ANTHROPIC_API_KEY
+2. ~/.zshrc 또는 ~/.bashrc 파일 가장 아래에 export 구문 추가하고 source ~/.zshrc 실행하기
+3. docker build 시에 -e로 api key 넘겨주기
+
+다 안 통한다.
+
+웃긴건 claude interactive는 잘 됨... 
+또 windows host에서는  interactive, cli 둘다 잘 된다는 거.
+이걸로 봐서는 키 문제가 아니라 cli 모드인 경우에 우분투에서 환경변수를 못 가져오는 듯 하다. 
+이틀 째 이걸로 삽질 중인데 뭐가 문제일까?
+
 ## 2026-05-18
 claude code cli가 도커 내 컨테이너에서 인증이 잘 안된다. 
 윈도우 환경을 전제로 해서 그런지 우분투 환경에서 뭔가 잘 안되고 있음. 

@@ -17,6 +17,14 @@
 1, 2를 같이 설정하는게 더 좋고,
 걱정되는 git history read는 git command 제한, git metatdata read 제약 걸면 될 것 같음.
 
+## 2026-05-20
+affan mustafa의 everything-claude-code(일명 ECC) 리포를 많이 참고하고 있는데, 
+써볼수록 좋은 것 같다. 
+구현하기에 감이 없었던 것들이나 참고하고 싶은 내용들 많은 부분이 이미 있다. 
+특히 cross agent 쪽 참고할 게 많다. 
+앞으로 claude만 쓸게 아니니까. 
+회사 안가는 동안 하나하나 뜯어봐야지. 
+
 ## 2026-05-19
 claude cli api 에러는 해결되지 않았지만... 사이드 프로젝트 하면서 머리를 식혀본다.
 naver blog를 쓰다가 자유도가 너무 낮아서 github을 써보기로 마음 먹었다.

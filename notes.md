@@ -17,6 +17,11 @@
 1, 2를 같이 설정하는게 더 좋고,
 걱정되는 git history read는 git command 제한, git metatdata read 제약 걸면 될 것 같음.
 
+## 2026-05-21
+[] Docker, k8s, wsl 등에 대한 이해 조금 더 해보기
+[] RTL 관련 논문 읽어보기
+[] ECC 리포지토리 탐방
+
 ## 2026-05-20
 affan mustafa의 everything-claude-code(일명 ECC) 리포를 많이 참고하고 있는데, 
 써볼수록 좋은 것 같다. 

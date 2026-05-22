@@ -1,5 +1,7 @@
 # Notes
 
+hi
+
 ## Claude code
 ### Sandboxing
 1.  permission deny 또는 prompt/policy/hook 기반 제한

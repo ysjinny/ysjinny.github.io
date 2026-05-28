@@ -1,7 +1,5 @@
 # Notes
 
-hi
-
 ## Claude code
 ### Sandboxing
 1.  permission deny 또는 prompt/policy/hook 기반 제한
@@ -19,10 +17,18 @@ hi
 1, 2를 같이 설정하는게 더 좋고,
 걱정되는 git history read는 git command 제한, git metatdata read 제약 걸면 될 것 같음.
 
+## 2026-05-28
+- 일주일만에 다시 시작하는 업무
+- RTL 논문 읽기
+- Agent.md 코드 정리 (문서 / 검증시스템 둘다)
+- 도커 내 ccn 설정
+- 리눅스 환경 만들기
+- ecc 리포지토리 탐방
+
 ## 2026-05-21
-[] Docker, k8s, wsl 등에 대한 이해 조금 더 해보기
-[] RTL 관련 논문 읽어보기
-[] ECC 리포지토리 탐방
+- [] Docker, k8s, wsl 등에 대한 이해 조금 더 해보기
+- [] RTL 관련 논문 읽어보기
+- [] ECC 리포지토리 탐방
 
 ## 2026-05-20
 affan mustafa의 everything-claude-code(일명 ECC) 리포를 많이 참고하고 있는데, 
